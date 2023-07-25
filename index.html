@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solution</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .font-style {
+            font-family: 'Poppins', sans-serif;
+        }
+        .eb{
+            font-family: 'EB Garamond', serif;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'common-color': '#B68C5A',
+                    },
+                    backgroundImage: {
+                        'banner-image': "url('./images/banner.png')",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-style">
+    <header class="max-w-screen-lg mx-auto">
+        <nav class="navbar flex justify-between">
+            <div>
+                <img src="./images/logo2.png" alt="">
+            </div>
+            <div class="space-x-6 text-base">
+                <a href="">Home</a>
+                <a href="">Services </a><i class="fa-solid fa-chevron-right"></i>
+                <a href="">Cases</a><i class="fa-solid fa-chevron-right"></i>
+                <a href="">Blog</a><i class="fa-solid fa-chevron-right"></i>
+                <a href="">Contact Us</a><i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div>
+                <button class="btn bg-common-color text-white">Free Consultation</button>
+            </div>
+        </nav>
+
+        <!-- banner section  -->
+        <div class="bg-banner-image   backdrop-opacity-10 flex flex-col justify-center items-center  min-h-[calc(100vh-74px)] bg-no-repeat mt-10 text-white text-center">
+            <div class="bg-slate-900 w-full h-full opacity-80"></div>
+            <div class="space-y-5 ">
+                <h1 class="text-7xl eb">We Provide Effective <br> Legal Solutions</h1>
+                <p class="text-base">There are many variations of passages of Lorem Ipsum available, but the majority
+                    <br> have suffered alteration in some form, by injected humour.
+                </p>
+                <input class="p-3 rounded-md" type="text" placeholder="Search your services"> <button
+                    class="btn bg-common-color text-white p4">Search</button>
+            </div>
+        </div>
+
+        <!-- <div class="hero min-h-[550px] bg-no-repeat" style="background-image: url('./images/banner.png');">
+            <div class="bg-slate-900 w-full h-full opacity-80"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="w-full">
+                <h1 class="mb-5 text-5xl font-bold">We Provide Effective <br> Legal Solutions</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+    </header>
+    <main>
+
+
+    </main>
+    <footer>
+        <!-- <svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M19.5 12H4.5" stroke="#414040" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> -->
+           
+
+    </footer>
+
+</body>
+
+</html>
