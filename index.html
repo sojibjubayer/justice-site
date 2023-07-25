@@ -48,15 +48,15 @@
             <div>
                 <img src="./images/logo2.png" alt="">
             </div>
-            <div class="space-x-6 text-base">
+            <div class="space-x-6 text-base ">
                 <a href="">Home</a>
-                <a href="">Services </a><i class="fa-solid fa-chevron-right"></i>
-                <a href="">Cases</a><i class="fa-solid fa-chevron-right"></i>
-                <a href="">Blog</a><i class="fa-solid fa-chevron-right"></i>
-                <a href="">Contact Us</a><i class="fa-solid fa-chevron-right"></i>
+                <a href="">Services </a><i class="fa-solid fa-chevron-right hidden md:block"></i>
+                <a href="">Cases</a><i class="fa-solid fa-chevron-right hidden md:block"></i>
+                <a href="">Blog</a><i class="fa-solid fa-chevron-right hidden md:block"></i>
+                <a href="">Contact Us</a><i class="fa-solid fa-chevron-right hidden md:block"></i>
             </div>
             <div>
-                <button class="btn bg-common-color text-white">Free Consultation</button>
+                <button class="btn bg-common-color text-white ">Free Consultation</button>
             </div>
         </nav>
 
@@ -65,7 +65,7 @@
             class="bg-banner-image    backdrop-opacity-10 flex flex-col justify-center items-center  min-h-[calc(100vh-74px)] bg-no-repeat mt-10 text-white text-center">
             <div class="bg-black opacity-40 w-full h-auto absolute top-0 left-0"></div>
             <div class="space-y-5 ">
-                <h1 class="text-7xl eb">We Provide Effective <br> Legal Solutions</h1>
+                <h1 class="md:text-7xl text-3xl eb">We Provide Effective <br> Legal Solutions</h1>
                 <p class="text-base">There are many variations of passages of Lorem Ipsum available, but the majority
                     <br> have suffered alteration in some form, by injected humour.
                 </p>
@@ -77,10 +77,10 @@
     </header>
     <main class="max-w-screen-lg mx-auto">
         <!-- Legal practice area  -->
-        <section class="flex justify-center">
-            <div class="text-center w-[650px] mb-20">
-                <h1 class="text-4xl font-extrabold">The Legal Practice Area</h1>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered
+        <section class="flex justify-center mt-10">
+            <div class="text-center md:w-[650px] mb-20">
+                <h1 class="md:text-4xl text-2xl font-extrabold">The Legal Practice Area</h1>
+                <p class="text-sm md:text-base">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered
                     alteration in some form, by injected humour.</p>
             </div>
         </section>
@@ -200,9 +200,9 @@
         <!-- client section  -->
         <section class="mb-20">
             <!-- client header  -->
-            <div class="text-center w-[650px] mx-auto m-14">
+            <div class="text-center md:w-[650px] mx-auto m-14">
                 <h1 class="eb text-4xl font-extrabold">What Our Client Say</h1>
-                <p class="poppins text-base">There are many variations of passages of Lorem Ipsum available, but the
+                <p class="poppins text-[10px] md:text-base">There are many variations of passages of Lorem Ipsum available, but the
                     majority have suffered alteration in some form, by injected humour.</p>
             </div>
 
@@ -210,13 +210,13 @@
             <div class="hero bg-banner-image min-w-full relative  min-h-full">
                 <div class="hero-overlay bg-opacity-70"></div>
                 <div class="hero-content text-white  text-center">
-                    <div class="w-[700px]">
+                    <div class="md:w-[700px]">
                         <div class="flex justify-center ">
                             <img class="w-[90px] h-[90px] rounded-full " src="./images/review.jpg" alt="">
                         </div>
                         <h1 class="mb-2 text-3xl font-bold">Awlad Hossain</h1>
                         <p>UIX Designer</p>
-                        <p class="mb-5 text-sm poppins">Contrary to popular belief, Lorem Ipsum is not simply random
+                        <p class="mb-5 text-[10px] md:text-sm poppins">Contrary to popular belief, Lorem Ipsum is not simply random
                             text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000
                             years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
                             looked up one of the more obscure Latin words, consectetur.</p>
@@ -241,7 +241,7 @@
         </section>
         <!-- FAQ section  -->
         <section>
-            <div class="text-center w-[700px] mx-auto mt-10 mb-10 space-y-4">
+            <div class="text-center md:w-[700px] mx-auto mt-10 mb-10 space-y-4">
                 <h1 class="eb text-4xl font-extrabold">Frequently Asked Any Questions</h1>
                 <p class="poppins text-sm">There are many variations of passages of Lorem Ipsum available, but the
                     majority have suffered alteration in some form, by injected humour.</p>
@@ -297,7 +297,7 @@
         <!-- contact us  section-->
         <section class="mb-20">
             <!-- contact header  -->
-            <div class="text-center w-[650px] mx-auto m-14">
+            <div class="text-center md:w-[650px] mx-auto m-14">
                 <h1 class="eb text-4xl font-extrabold">Contact With Us</h1>
                 <p class="poppins text-base">There are many variations of passages of Lorem Ipsum available, but the
                     majority have suffered alteration in some form, by injected humour.</p>
@@ -368,13 +368,13 @@
 
 
     </main>
-    <footer class="footer p-10 bg-[#111] text-base-content max-w-screen-lg mx-auto text-white">
+    <footer class="footer p-10 bg-[#111] text-base-content max-w-screen-lg mx-auto text-white grid grid-cols-2 md:grid-cols-none">
         <div>
           <img src="./images/logo2.png" alt="">
-          <p class="w-[200px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <p class="md:w-[200px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
         </div> 
         <div>
-          <span class="footer-title">Useful Link</span> 
+          <span class="footer-title mt-5 md:mt-0">Useful Link</span> 
           <a class="link link-hover">Branding</a> 
           <a class="link link-hover">Design</a> 
           <a class="link link-hover">Marketing</a> 
